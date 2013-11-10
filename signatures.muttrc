@@ -1,0 +1,2 @@
+send-hook . set signature="~/.mutt/signatures/main.sig"
+#send-hook "~t @domain.com" set signature=~/.mutt/signatures/filtered.sig

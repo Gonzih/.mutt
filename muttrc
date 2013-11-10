@@ -1,8 +1,7 @@
 source ~/.mutt/badwolf/contrib/badwolf.muttrc
 source ~/.mutt/keybindings.muttrc
 source ~/.mutt/credentials.muttrc
-
-set signature=~/.mutt/signatures/personal.sig
+source ~/.mutt/signatures.muttrc
 
 # HTML Emails
 set mailcap_path = ~/.mutt/mailcap
