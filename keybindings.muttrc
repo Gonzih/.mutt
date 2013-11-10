@@ -7,10 +7,6 @@ bind index 'K' tag-pattern
 bind index 'gg' first-entry
 bind index 'G' last-entry
 
-bind pager 'h' next-undeleted
-bind pager 't' previous-undeleted
-bind pager 'H' next-entry
-bind pager 'T' previous-entry
 bind pager 'k' tag-message
 bind pager 'K' toggle-quoted
 bind pager '<up>' previous-line
@@ -19,3 +15,10 @@ bind pager 'gg' top
 bind pager 'G' bottom
 bind pager '{' previous-page
 bind pager '}' next-page
+
+bind compose 'k' edit-to
+bind compose \ch display-toggle-weed
+bind compose 'h' next-entry
+bind compose 't' previous-entry
+
+macro index,pager,compose <ESC>a ":source ~/.muttrc\n" "reload the ~/.muttrc"
