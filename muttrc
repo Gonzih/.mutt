@@ -1,6 +1,6 @@
-source $HOME/.mutt/badwolf/contrib/badwolf.muttrc
-source $HOME/.mutt/keybindings.muttrc
-source $HOME/.mutt/credentials.muttrc
+source ~/.mutt/badwolf/contrib/badwolf.muttrc
+source ~/.mutt/keybindings.muttrc
+source ~/.mutt/credentials.muttrc
 
 # HTML Emails
 set mailcap_path = ~/.mutt/mailcap
