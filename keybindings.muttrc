@@ -4,6 +4,8 @@ bind index,pager 'H' next-entry
 bind index,pager 'T' previous-entry
 bind index 'k' tag-entry
 bind index 'K' tag-pattern
+bind index 'gg' first-entry
+bind index 'G' last-entry
 
 bind pager 'h' next-undeleted
 bind pager 't' previous-undeleted
