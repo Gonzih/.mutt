@@ -2,15 +2,15 @@ bind index,pager 'h' next-undeleted
 bind index,pager 't' previous-undeleted
 bind index,pager 'H' next-entry
 bind index,pager 'T' previous-entry
-bind index 'i' tag-entry
-bind index 'I' tag-pattern
+bind index 'k' tag-entry
+bind index 'K' tag-pattern
 
 bind pager 'h' next-undeleted
 bind pager 't' previous-undeleted
 bind pager 'H' next-entry
 bind pager 'T' previous-entry
-bind pager 'i' tag-message
-bind pager 'I' toggle-quoted
+bind pager 'k' tag-message
+bind pager 'K' toggle-quoted
 bind pager '<up>' previous-line
 bind pager '<down>' next-line
 bind pager 'gg' top
