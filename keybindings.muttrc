@@ -15,7 +15,7 @@ bind pager '{' previous-page
 bind pager '}' next-page
 
 bind compose 'k' edit-to
-bind compose,attach \ch display-toggle-weed
+bind pager,compose,attach \ch display-toggle-weed
 bind compose,browser,attach 'h' next-entry
 bind compose,browser,attach 't' previous-entry
 
