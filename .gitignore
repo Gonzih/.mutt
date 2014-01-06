@@ -3,3 +3,4 @@ credentials.muttrc
 cache/
 certificates
 signatures/
+offlineimap/offlineimap.pyc
