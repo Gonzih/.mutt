@@ -7,4 +7,4 @@ Look at example configs for details. `init.sh` provides a way for bootstrapping.
 * offlineimap
 * msmtp
 * urlview
-* mailcap
+* lynx (for mailcap)
