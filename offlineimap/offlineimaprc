@@ -19,7 +19,7 @@ type = Gmail
 remoteusereval = get_username("imap.gmail.com")
 remotepasseval = get_password("imap.gmail.com")
 realdelete = no
-maxconnections = 3
+maxconnections = 10
 nametrans = lambda foldername: re.sub ('^\[gmail\]', 'bak',
                                re.sub ('sent_mail', 'sent',
                                re.sub ('starred', 'flagged',
