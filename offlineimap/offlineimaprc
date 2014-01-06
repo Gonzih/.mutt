@@ -1,0 +1,22 @@
+[general]
+
+pythonfile = ~/.mutt/offlineimap/offlineimap.py
+
+[general]
+ui = ttyui
+accounts = gonzih@gmail.com
+
+[Account gonzih@gmail.com]
+localrepository = gonzih@gmail.com-Local
+remoterepository = gonzih@gmail.com-Remote
+
+[Repository gonzih@gmail.com-Local]
+type = Maildir
+localfolders = ~/.mail/gonzih@gmail.com
+
+[Repository gonzih@gmail.com-Remote]
+type = Gmail
+remoteusereval = get_username("imap.gmail.com")
+remotepasseval = get_password("imap.gmail.com")
+realdelete = no
+maxconnections = 3
