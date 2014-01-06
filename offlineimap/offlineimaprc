@@ -20,3 +20,9 @@ remoteusereval = get_username("imap.gmail.com")
 remotepasseval = get_password("imap.gmail.com")
 realdelete = no
 maxconnections = 3
+nametrans = lambda foldername: re.sub ('^\[gmail\]', 'bak',
+                               re.sub ('sent_mail', 'sent',
+                               re.sub ('starred', 'flagged',
+                               re.sub (' ', '_', foldername.lower()))))
+folderfilter = lambda foldername: foldername not in '[Gmail]/All Mail'
+sslcacertfile = /var/lib/ca-certificates/ca-bundle.pem
