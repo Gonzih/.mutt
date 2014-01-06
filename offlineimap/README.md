@@ -6,3 +6,8 @@ Run `./imap-passwords` and provide options for server, then add following lines 
 remoteusereval = get_username("imap.gmail.com")
 remotepasseval = get_password("imap.gmail.com")
 ```
+
+## SSLCACert file
+
+Here is good documentation about that file http://docs.offlineimap.org/en/latest/FAQ.html#how-do-i-generate-an-sslcacertfile-file.
+I use file from default suse distribution.
