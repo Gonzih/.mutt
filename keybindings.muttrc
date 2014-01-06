@@ -13,6 +13,7 @@ bind pager 'gg' top
 bind pager 'G' bottom
 bind pager '{' previous-page
 bind pager '}' next-page
+macro pager \Cu "|urlview<enter>" "call urlview to open links"
 
 bind compose 'k' edit-to
 bind pager,compose,attach \ch display-toggle-weed
