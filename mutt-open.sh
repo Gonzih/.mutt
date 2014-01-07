@@ -1,6 +1,6 @@
 #!/bin/bash
 
-bedug="false"
+debug="false"
 #debug="true"
 
 # the tmp directory to use.
