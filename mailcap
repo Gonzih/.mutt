@@ -1,1 +1,4 @@
+text/plain; cat %s
 text/html; lynx -display_charset=utf-8 -dump %s; nametemplate=%s.html; copiousoutput
+
+application/*; ~/.mutt/mutt-open.sh %s; test=test -n "$DISPLAY"
