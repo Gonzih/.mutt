@@ -12,7 +12,8 @@ mkdir -p $tmpdir
 
 # get rid of path
 filename=`basename $1`
-newfile=$tmpdir/$filename
+md5=`md5sum $1 | cut -d' ' -f 1`
+newfile=$tmpdir/$md5-$filename
 
 if [ $debug = "true" ];then
     echo "===================" >> $tmplog
