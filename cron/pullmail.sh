@@ -9,7 +9,7 @@ if [ -e "$dbus_session_file" ]; then
   export DBUS_SESSION_BUS_ADDRESS DBUS_SESSION_BUS_PID
 
   if [ $suppress_warnings = "yes" ];then
-    /usr/bin/offlineimap | grep --invert-match 'Warning'
+    /usr/bin/offlineimap 2>&1 | grep --invert-match 'Warning'
   else
     /usr/bin/offlineimap
   fi
