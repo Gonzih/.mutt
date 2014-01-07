@@ -1,7 +1,7 @@
 #!/bin/bash
 
-#bedug="false"
-debug="true"
+bedug="false"
+#debug="true"
 
 # the tmp directory to use.
 tmpdir="/tmp/mutt_attach_$USER"
