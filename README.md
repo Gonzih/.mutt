@@ -10,6 +10,7 @@ You probably will ignore most of my keybindings since I'm Programmer Dvorak user
 * msmtp
 * urlview
 * lynx (for mailcap)
+* xdg-open (to use open update scripts)
 
 ## Installation
 
