@@ -73,6 +73,7 @@ mailboxes +gonzih@gmail.com/INBOX \
           +gonzih@gmail.com/RSS.ML \
           +gonzih@gmail.com/Lists.Ruby \
           +gonzih@gmail.com/Lists.Clojure \
+          +gonzih@gmail.com/Lists.Other \
 
 # Other special folders.
 set mbox      = "+gonzih@gmail.com/archive"
