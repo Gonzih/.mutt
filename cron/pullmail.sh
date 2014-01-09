@@ -2,7 +2,7 @@
 
 display_number=0
 dbus_session_file=~/.dbus/session-bus/$(cat /var/lib/dbus/machine-id)-$display_number
-suppress_warnings="yes"
+suppress_warnings="no"
 
 if [ -e "$dbus_session_file" ]; then
   . "$dbus_session_file"
