@@ -3,8 +3,8 @@
 pythonfile = ~/.mutt/offlineimap/offlineimap.py
 
 [general]
-#ui = ttyui
-ui = quiet
+ui = ttyui
+#ui = quiet
 accounts = gonzih@gmail.com
 
 [Account gonzih@gmail.com]
