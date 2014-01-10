@@ -81,7 +81,7 @@ set postponed = "+gonzih@gmail.com/drafts"
 
 # sending with MSMTP
 set from     = "gonzih@gmail.com"
-set sendmail = "/usr/bin/msmtp -a gonzih"
+set sendmail = "/usr/bin/msmtp-enqueue.sh -a gonzih"
 set sendmail_wait = 0
 unset record
 
