@@ -13,5 +13,5 @@ By default mutt is configured to store all outgoing emails in queue.
 To send emails you should add following line to your crontab:
 
 ```
-*/5 * * * * /usr/bin/msmtp-runqueue.sh
+*/5 * * * * /usr/bin/msmtp-runqueue.sh >>$HOME/.msmtpqueue.log 2>&1
 ```
