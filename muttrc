@@ -105,6 +105,8 @@ set reply_to                         # reply to Reply to: field
 set reverse_name                     # reply as whomever it was to
 set include                          # include message in replies
 set forward_quote                    # include message in forwards
+set sort = threads
+set sort_aux = reverse-last-date-received
 
 # Pager View Options ---------------------------------
 set pager_index_lines = 10 # number of index lines to show
