@@ -23,5 +23,6 @@ For this case it can be useful to use timeout command.
 Just add command to cron like that:
 
 ```
+# Terminate task after 10 minutes
 */10 * * * * timeout 600 $HOME/.mutt/cron/pullmail.sh >>$HOME/.offlineimap/cron.log 2>&1
 ```
