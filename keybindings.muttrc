@@ -1,3 +1,4 @@
+# Programmer Dvorak related bindings {{{
 bind index,pager 'h' next-undeleted
 bind index,pager 't' previous-undeleted
 bind index,pager 'H' next-entry
@@ -20,11 +21,12 @@ bind pager,compose,attach \ch display-toggle-weed
 bind compose,browser,attach 'h' next-entry
 bind compose,browser,attach 't' previous-entry
 
-bind index,compose,browser 'gg' first-entry
-bind index,compose,browser 'G' last-entry
-
 bind browser 'k' tag-entry
 bind browser 'K' toggle-subscribed
+
+# }}}
+bind index,compose,browser 'gg' first-entry
+bind index,compose,browser 'G' last-entry
 
 macro index,pager,compose,browser,attach <ESC>a ":source ~/.muttrc\n" "reload the ~/.muttrc"
 

@@ -26,3 +26,10 @@ offlineimap
 
 mutt
 ```
+
+## Configuration
+
+Current configuration is ready to go with gmail account.
+For different mail servers some tweaking probably is necessary.
+Only thing that you probably want to change is `keybindings.muttrc`
+since my version is optimized for Programmer Dvorak layout.
