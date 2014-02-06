@@ -15,3 +15,13 @@ To send emails you should add following line to your crontab:
 ```
 */5 * * * * /usr/bin/msmtp-runqueue.sh >>$HOME/.msmtpqueue.log 2>&1
 ```
+
+## Timeout
+
+Sometimes offlineimap can freeze due to suspend/hibernate for example.
+For this case it can be useful to use timeout command.
+Just add command to cron like that:
+
+```
+*/10 * * * * timeout 600 $HOME/.mutt/cron/pullmail.sh >>$HOME/.offlineimap/cron.log 2>&1
+```
