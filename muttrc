@@ -1,7 +1,7 @@
 source ~/.mutt/badwolf/contrib/badwolf.muttrc
 source ~/.mutt/keybindings.muttrc
 source ~/.mutt/signatures.muttrc
-source `FILE=$HOME/.mutt/hooks/*.muttrc; if [ ! -s "$FILE" ]; then FILE=/dev/null;fi;echo "$FILE"`
+source `$HOME/.mutt/muttsource.sh $HOME/.mutt/hooks/custom.muttrc`
 
 # HTML Emails
 set mailcap_path = ~/.mutt/mailcap
