@@ -1,6 +1,6 @@
 ## Setting up password with Gnome keyring
 
-Run `./imap-passwords` and provide options for server, then add following lines to `~/.offlineimaprc`:
+Run `./imap-passwords` and provide options for server (address without protocol, like "imap.gmail.com"), then add following lines to `~/.offlineimaprc`:
 
 ```python
 remoteusereval = get_username("imap.gmail.com")
