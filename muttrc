@@ -62,6 +62,7 @@ mailboxes +gonzih@gmail.com/INBOX \
           +gonzih@gmail.com/sent \
           +gonzih@gmail.com/drafts \
           +gonzih@gmail.com/RSS.Clojure \
+          +gonzih@gmail.com/RSS.Scala \
           +gonzih@gmail.com/RSS.Elixir \
           +gonzih@gmail.com/RSS.Erlang \
           +gonzih@gmail.com/RSS.Ruby \
