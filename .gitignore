@@ -5,3 +5,4 @@ certificates
 signatures/
 offlineimap/offlineimap.pyc
 hooks/
+temp/*
