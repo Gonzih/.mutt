@@ -57,7 +57,8 @@ macro index o "<sync-mailbox>.<shell-escape>offlineimap -qf INBOX<enter>.<sync-m
 # Saner copy/move dialogs
 macro index C "<copy-message>?<toggle-mailboxes>" "copy a message to a mailbox"
 macro index M "<save-message>?<toggle-mailboxes>" "move a message to a mailbox"
-macro index,pager A "<save-message>=gonzih@gmail.com/allmail<enter>" "Archive Message"
+macro index,pager A ":set confirmappend=no delete=yes auto_tag=yes\n<save-message>=gonzih@gmail.com/allmail\n<sync-mailbox>:set confirmappend=yes delete=ask-yes\n"
+macro index,pager * "K*<enter>"
 
 # Sidebar Navigation ---------------------------------
 bind index,pager <down>   sidebar-next
