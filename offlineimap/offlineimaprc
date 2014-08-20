@@ -19,7 +19,7 @@ nametrans = lambda folder: {'drafts':  '[Gmail]/Drafts',
                             'flagged': '[Gmail]/Starred',
                             'trash':   '[Gmail]/Trash',
                             'archive': '[Gmail]/Archives',
-                            'Allmail': '[Gmail]/All mail',
+                            'allmail': '[Gmail]/All Mail',
                             }.get(folder, folder)
 
 [Repository gonzih@gmail.com-Remote]
@@ -33,13 +33,12 @@ nametrans = lambda folder: {'[Gmail]/Drafts':    'drafts',
                             '[Gmail]/Starred':   'flagged',
                             '[Gmail]/Trash':     'trash',
                             '[Gmail]/Archives':  'archive',
-                            '[Gmail]/All mail':  'Allmail',
+                            '[Gmail]/All Mail':  'allmail',
                             }.get(folder, folder)
 folderfilter = lambda folder: folder not in ['[Gmail]/Trash',
                                              '[Gmail]/Important',
                                              '[Gmail]/Spam',
                                              '[Gmail]/Bin',
-                                             '[Gmail]/All Mail',
                                              '[Gmail]/Archives 2012',
                                              ]
 sslcacertfile = /var/lib/ca-certificates/ca-bundle.pem
