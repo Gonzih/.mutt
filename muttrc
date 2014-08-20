@@ -58,7 +58,6 @@ set spoolfile = "+gonzih@gmail.com/INBOX"
 
 # Mailboxes to show in the sidebar.
 mailboxes +gonzih@gmail.com/INBOX \
-          +gonzih@gmail.com/Allmail \
           +gonzih@gmail.com/archive \
           +gonzih@gmail.com/sent \
           +gonzih@gmail.com/drafts \
