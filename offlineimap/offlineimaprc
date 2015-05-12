@@ -40,4 +40,4 @@ folderfilter = lambda folder: folder not in ['[Gmail]/Trash',
                                              '[Gmail]/All Mail',
                                              '[Gmail]/Archives 2012',
                                              ]
-sslcacertfile = /var/lib/ca-certificates/ca-bundle.pem
+sslcacertfile = /etc/ssl/certs/ca-certificates.crt
